@@ -32,3 +32,10 @@ The system leverages Small Language Models (SLMs) and FAISS-based Retrieval-Augm
 3. **Agentic Compliance Orchestrator (`src/compliance_agent.py` & `src/tools.py`)**
    - Deterministic rule checks paired with an SLM reasoning layer.
    - Automated generation of a formal **Model Risk Management (MRM) Validation Memorandum**.
+
+Metric,Threshold / Standard,Regulatory Reference,Purpose
+KS Statistic,≥0.30,Basel IRB / Industry Standard,Measures discriminatory power between goods and bads
+ROC-AUC,≥0.70,Basel IRB Baseline,Measures rank-ordering accuracy
+Brier Score,Lower is better (<0.20),SR 11-7 Calibration Standards,Evaluates probability calibration accuracy
+PSI,"<0.10 (Stable), ≥0.25 (Action)",Fed SR 11-7 Stability Guidance,Detects population and feature drift
+Disparate Impact,≥0.80 (80% Rule),CFPB ECOA / Regulation B,Verifies fair lending across protected attributes
