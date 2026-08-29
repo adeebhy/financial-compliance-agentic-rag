@@ -1,0 +1,4 @@
+Equal Credit Opportunity Act (ECOA) / CFPB Regulation B (12 CFR Part 1002).
+1. Prohibited Bases: Creditors shall not discriminate against applicants on the basis of race, color, religion, national origin, sex, marital status, or age.
+2. Disparate Impact & Four-Fifths Rule: A selection rate for any protected group that is less than four-fifths (80%) of the rate for the group with the highest selection rate is considered adverse disparate impact requiring business necessity justification.
+3. Adverse Action Notice: If credit is denied, the creditor must provide specific key principal reasons (typically top 4 adverse factors) derived from model score attributions.

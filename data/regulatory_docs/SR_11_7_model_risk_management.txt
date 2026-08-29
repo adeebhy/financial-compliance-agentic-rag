@@ -1,0 +1,5 @@
+Federal Reserve SR 11-7: Guidance on Model Risk Management.
+1. Model Validation: All quantitative models must undergo rigorous independent validation covering conceptual soundness, ongoing monitoring, and outcomes analysis.
+2. Population Stability: The Population Stability Index (PSI) must be monitored. A PSI < 0.10 indicates stable population; 0.10 <= PSI < 0.25 indicates moderate shift requiring review; PSI >= 0.25 indicates significant population shift requiring model recalibration.
+3. Discriminatory Power: Credit rating systems should achieve a Kolmogorov-Smirnov (KS) statistic >= 0.30 and ROC-AUC >= 0.70 for prime/subprime cutoff demarcation.
+4. Benchmarking & Sensitivity: Models must be stress-tested and backtested against out-of-time (OOT) samples.
